@@ -1,0 +1,40 @@
+* {
+    margin: 0px 0px 0px 0px; /*top right bottom left*/
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Code Pro",sans-serif;
+}
+div {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+div.red { /*command . class*/
+    background-color: red;
+}
+div.blue {
+    background-color: blue;
+}
+div.yellow {
+    background-color: yellow;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /*horizontal*/
+    line-height: 80px; /*Vertical*/
+    color: white;
+}
+
+p {
+    margin: 10px 25px 15px 25px;
+}
+
+.circle {
+    border-radius: 50%;
+}
